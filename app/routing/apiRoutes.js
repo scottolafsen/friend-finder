@@ -12,7 +12,7 @@ module.exports = function(app) {
     var match = {
         name: "",
         photo: "",
-        difference: 1000
+        difference: 5000
     };
     var userScore = req.body.scores;
     var totalDifference = 0;
